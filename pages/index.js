@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import Loader from "react-loader-spinner";
 import Masonry from "react-masonry-css";
-import useFetch from "./useFetch";
+import useFetch from "../hooks/useFetch";
 
 const breakpointColumnsObj = {
 	default: 4,
